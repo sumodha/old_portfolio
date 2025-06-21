@@ -154,10 +154,15 @@ h4{
 }
 
 
-a{
-    color: black;
-
-}
+/* 1) Un-hovered links: link + visited */
+a:link,
 a:visited {
-    color: black;
+  color: black;
 }
+
+/* 2) Hover & focus */
+a:hover,
+a:focus {
+  color: #1C2A73;    
+}
+
