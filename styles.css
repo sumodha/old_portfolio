@@ -80,6 +80,21 @@ h2{
 .navbar a:hover{
     color:#1C2A73;
 }
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-container{
+    max-width: 850px;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin: auto;
+}
 #header-container{   
     position: fixed;
     top: 0;
@@ -93,28 +108,15 @@ h2{
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
 }
-
-#contact{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#main-container{
-    display: block;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    margin: 0 clamp(0px, 20vw, 200px);
-}
 #header-inner{
+    max-width: 850px;
     display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 10px 20px 10px 20px;
 
       /* vertical padding + clamp() for side margins */
-      margin: 0 clamp(0px, 20vw, 200px);
+      margin: auto;
 }
 .project-info{
     padding-left: 10px;
