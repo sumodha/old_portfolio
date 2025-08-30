@@ -2,6 +2,10 @@
 html{
     scroll-behavior: smooth;
 }
+#name {
+    color: #1C2A73;  
+
+}
 h1{
     font-family: 'Segoe UI';
     font-weight: bold;
@@ -23,7 +27,7 @@ h2{
     font-size: 33px;
     font-family: 'Segoe UI';
     font-weight: 700;
-    color: black;
+    color: #1C2A73;
     margin: 0px;
     padding: 10px 0px 10px 0px;
 }
@@ -47,7 +51,7 @@ h2{
 }
 .project{
     width: 390px;
-    height:330px;
+    height:340px;
   border-radius: 20px;
    border: 1px solid #ddd;
   overflow: hidden; /* ensures rounding applies to child image too */
@@ -78,7 +82,7 @@ h2{
     display: block;
 }
 .navbar a:hover{
-    color:rgb(77, 77, 77);
+    color:#1C2A73;
 }
 
 #contact{
@@ -171,6 +175,6 @@ a:visited {
 /* 2) Hover & focus */
 a:hover,
 a:focus {
-  color: rgb(77, 77, 77);    
+  color: #1C2A73;    
 }
 
